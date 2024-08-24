@@ -1,0 +1,47 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    align-items: center;
+    background: linear-gradient(to right, #77f3d4, #7babfe);
+}
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+}
+
+#container{
+    max-width: 800px;
+    background-color: rgba(240, 248, 255, 0.434);
+    padding: 15px;
+    box-shadow: 1 1 10px;
+    border-radius: 10px;
+    display: flex;
+    gap: 20px;
+}
+
+#foto{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+}
+
+#descricao{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    flex: 1;
+}
+
+#descricao p{
+    text-align: justify;
+}
+
+#socialMedia{
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
